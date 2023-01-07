@@ -59,6 +59,8 @@ function printArray(N, arr) {
 
 */
 
+/*SECOND METHOD
+
 function printArray(N, arr) {
   //write code here
   // for(let ele of arr){
@@ -66,6 +68,19 @@ function printArray(N, arr) {
   // }
 
   for (let i = 0; i < N; i++) {
+    console.log(arr[i]);
+  }
+}
+
+*/
+
+function printArray(N, arr) {
+  //write code here
+  // for(let ele of arr){
+  //     console.log(ele);
+  // }
+
+  for (let i = 0; i < arr.length; i++) {
     console.log(arr[i]);
   }
 }
