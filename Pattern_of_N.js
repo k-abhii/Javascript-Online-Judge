@@ -45,3 +45,45 @@ Also, there should be 4 elements on each line. Therefore, the output becomes
 
 
 */
+
+function patternOfN(N) {
+  // Write code here
+
+  for (let j = 1; j <= N; j++) {
+    let pattern = "";
+
+    for (let i = 1 + (j - 1) * N; i <= j * N; i++) {
+      pattern += i + " ";
+    }
+    console.log(pattern);
+
+    // if(j===1){
+
+    //     for(let i=1;i<=N;i++){
+    //     pattern+=i+" ";
+    // }
+    //     console.log(pattern);
+    // }else if(j==2){
+
+    //     for(let i=1+N;i<=N+N;i++){
+    //     pattern+=i+" ";
+    // }
+    //     console.log(pattern);
+    // }else if(j===3){
+    //     for(let i=1+N+N;i<=N+N+N;i++){
+    //     pattern+=i+" ";
+    // }
+    //     console.log(pattern);
+
+    // }else {
+    //     for(let i=1+N+N+N;i<=N+N+N+N;i++){
+    //     pattern+=i+" ";
+    // }
+    //     console.log(pattern);
+    // }
+
+    // }
+  }
+}
+
+patternOfN(5);
