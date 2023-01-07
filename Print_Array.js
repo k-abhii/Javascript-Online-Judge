@@ -48,10 +48,25 @@ You need to print elements of array on new line.
 
 */
 
+/* FIRST METHOD FOR OF LOOP 
+
 function printArray(N, arr) {
   //write code here
   for (let ele of arr) {
     console.log(ele);
+  }
+}
+
+*/
+
+function printArray(N, arr) {
+  //write code here
+  // for(let ele of arr){
+  //     console.log(ele);
+  // }
+
+  for (let i = 0; i < N; i++) {
+    console.log(arr[i]);
   }
 }
 
